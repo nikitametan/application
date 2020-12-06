@@ -1,0 +1,191 @@
+body {
+    font-family: "Tahoma", sans-serif;
+    width: 1366px;
+    margin: 0 auto;
+    box-sizing: border-box
+
+}
+
+h1, h2, p {
+    margin: 0
+}
+
+            /* Первый блок */
+
+    /* Фотография книги */
+
+.section_1 img {
+    display: inline-block;
+    width: 404px;
+    vertical-align: middle;
+    padding: 77px 0 0 123px;
+    transition: 1s
+}
+
+.section_1 img:hover {
+    transform: scale(1.1)
+}
+
+    /**/
+
+    /* Блок с описанием первого блока */
+
+.description {
+    display: inline-block;
+    width: 526px;
+    vertical-align: middle;
+    margin-left: 75px
+}
+
+.description h1 {
+    font-size: 48px;
+    margin-bottom: 15px
+}
+
+.description h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 35px
+}
+
+.description_text {
+    font-size: 18px;
+    margin-bottom: 47px
+}
+
+.cost {
+    font-size: 48px;
+    margin-bottom: 53px
+}
+
+/* Кнопки */
+
+.buy {
+    padding: 22px 42px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #f05a22;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.7s
+}
+
+.buy:hover {
+    box-shadow: 0 0 10px #f05a22
+}
+
+.info {
+    padding: 21px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f05a22;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #f05a22;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.7s
+
+}
+
+.info:hover {
+    color: black;
+    border: 2px solid black
+}
+/**/
+        /**/
+            /**/
+
+            /* Второй блок */
+
+.section_2 {
+    background-color: #f2f2f2;
+    height: 408px;
+    margin: 96px 0 89px 0
+}
+
+.section_2 h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 89px
+}
+
+    /* Инфо о доставке и оплаты второго блока*/
+
+.section_2_wrap {
+    width: 1060px;
+    margin: 91px auto
+}
+
+.section_2_wrap p {
+    line-height: 22px;
+    color: #333333;
+}
+
+.Shopping_cart {
+    display: inline-block;
+    width: 181px;
+    margin-right: 100px
+}
+
+.Credit_card {
+    display: inline-block;
+    width: 201px;
+    margin-right: 100px
+}
+
+.Shipped {
+    display: inline-block;
+    width: 170px;
+    margin-right: 100px
+}
+
+.Mailbox {
+    display: inline-block;
+    width: 156px;
+}
+
+    /**/
+
+/* Картинки второго блока */
+
+.Shopping_cart img {
+    margin: 0 0 16px 50px;
+}
+
+.Credit_card img {
+    margin: 0 0 23px 71px;
+}
+
+.Shipped img {
+    margin: 0 0 26px 60px
+}
+
+.Mailbox img {
+    margin: 0 0 30px 60px
+}
+
+/**/
+        /**/
+
+            /* Третий блок */
+
+.section_3 h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px
+}
+
+.section_3_wrap {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.section_3_wrap img {
+    margin: 10px
+}
+
+            /* Проще и ровнее было бы сделать с помощью flex-box, но еще не знаю в полной мере как им пользоваться*/
+/* Конец */
